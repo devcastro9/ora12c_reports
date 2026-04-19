@@ -1096,8 +1096,8 @@ ORDER BY FEC_INICIO;]]>
                  lineForegroundColor="darkgray"/>
                 <text name="B_H_BL_Op" minWidowLines="1">
                   <textSettings spacing="0"/>
-                  <geometryInfo x="0.19995" y="2.19006" width="0.00000"
-                   height="0.00000"/>
+                  <geometryInfo x="0.19995" y="2.19006" width="1.00000"
+                   height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
                     <string>
@@ -1107,8 +1107,8 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_Tram" minWidowLines="1">
                   <textSettings spacing="0"/>
-                  <geometryInfo x="1.25000" y="2.19006" width="0.00000"
-                   height="0.00000"/>
+                  <geometryInfo x="1.25000" y="2.19006" width="0.75000"
+                   height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
                     <string>
@@ -1118,8 +1118,8 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_Ini" minWidowLines="1">
                   <textSettings spacing="0"/>
-                  <geometryInfo x="2.05005" y="2.19006" width="0.00000"
-                   height="0.00000"/>
+                  <geometryInfo x="2.05005" y="2.19006" width="0.69995"
+                   height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
                     <string>
@@ -1129,8 +1129,8 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_Ven" minWidowLines="1">
                   <textSettings spacing="0"/>
-                  <geometryInfo x="2.80005" y="2.19006" width="0.00000"
-                   height="0.00000"/>
+                  <geometryInfo x="2.80005" y="2.19006" width="0.69995"
+                   height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
                     <string>
@@ -1140,8 +1140,8 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_Mon" minWidowLines="1">
                   <textSettings spacing="0"/>
-                  <geometryInfo x="3.55005" y="2.19006" width="0.00000"
-                   height="0.00000"/>
+                  <geometryInfo x="3.55005" y="2.19006" width="0.69995"
+                   height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
                     <string>
@@ -1151,8 +1151,8 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_Est" minWidowLines="1">
                   <textSettings spacing="0"/>
-                  <geometryInfo x="4.30005" y="2.19006" width="0.00000"
-                   height="0.00000"/>
+                  <geometryInfo x="4.30005" y="2.19006" width="0.90002"
+                   height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
                     <string>
@@ -1162,8 +1162,8 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_Ins" minWidowLines="1">
                   <textSettings spacing="0"/>
-                  <geometryInfo x="5.25000" y="2.19006" width="0.00000"
-                   height="0.00000"/>
+                  <geometryInfo x="5.25000" y="2.19006" width="1.40002"
+                   height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
                     <string>
@@ -1173,8 +1173,8 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_Pro" minWidowLines="1">
                   <textSettings spacing="0"/>
-                  <geometryInfo x="6.69995" y="2.19006" width="0.00000"
-                   height="0.00000"/>
+                  <geometryInfo x="6.69995" y="2.19006" width="1.40002"
+                   height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
                     <string>
@@ -1184,8 +1184,8 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_SDir" minWidowLines="1">
                   <textSettings justify="end" spacing="0"/>
-                  <geometryInfo x="8.25000" y="2.19006" width="0.00000"
-                   height="0.00000"/>
+                  <geometryInfo x="8.25000" y="2.19006" width="1.25000"
+                   height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
                     <string>
@@ -1195,8 +1195,8 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_SCon" minWidowLines="1">
                   <textSettings justify="end" spacing="0"/>
-                  <geometryInfo x="9.55005" y="2.19006" width="0.00000"
-                   height="0.00000"/>
+                  <geometryInfo x="9.55005" y="2.19006" width="1.25000"
+                   height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
                     <string>
@@ -1665,7 +1665,7 @@ ORDER BY FEC_INICIO;]]>
             <text name="B_TotDeudaLbl" minWidowLines="1">
               <textSettings justify="center" spacing="0"/>
               <geometryInfo x="4.00000" y="4.75000" width="4.00000"
-               height="0.00000"/>
+               height="0.16663"/>
               <textSegment>
                 <font face="Courier New" size="10" bold="yes"/>
                 <string>
@@ -1891,9 +1891,9 @@ ORDER BY FEC_INICIO;]]>
         <visualSettings fillBackgroundColor="r50g100b0"/>
         <field name="F_CF_TitEmpresa" source="CF_TitEmpresa" minWidowLines="1"
          spacing="single" alignment="start">
-          <font face="Courier New" size="9" bold="yes" textColor="r0g0b50"/>
-          <geometryInfo x="0.06250" y="0.05005" width="6.00000"
-           height="0.14587"/>
+          <font face="Courier New" size="11" bold="yes" textColor="r0g0b50"/>
+          <geometryInfo x="0.06250" y="0.03003" width="7.00000"
+           height="0.18005"/>
         </field>
         <field name="F_CF_TitAgencia" source="CF_TitAgencia" minWidowLines="1"
          spacing="single" alignment="start">
