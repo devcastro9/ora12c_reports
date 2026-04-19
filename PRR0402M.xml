@@ -779,17 +779,88 @@ ORDER BY FEC_INICIO;]]>
     </body>
   </section>
   <section name="main" width="11.00000" height="8.50000">
-    <body width="10.95837" height="7.19263">
-      <location x="0.00000" y="1.25000"/>
-      <frame name="M_G_EMPRESA_GRPFR">
+    <body width="10.95837" height="7.86000">
+      <location x="0.00000" y="0.58000"/>
+      <repeatingFrame name="R_Header_P1" source="G_General"
+       printDirection="down" minWidowRecords="1" columnMode="no">
         <geometryInfo x="0.00000" y="0.00000" width="10.92188"
+         height="0.70000"/>
+        <generalLayout verticalElasticity="variable"/>
+        <field name="F_CF_TitReporte" source="CF_TitReporte" minWidowLines="1"
+         spacing="single" alignment="center">
+          <font face="Courier New" size="10" bold="yes" textColor="r0g0b50"/>
+          <geometryInfo x="0.06250" y="0.00000" width="10.80005"
+           height="0.18005"/>
+          <visualSettings fillBackgroundColor="r50g75b50"/>
+        </field>
+        <text name="B_DirLbl" minWidowLines="1">
+          <textSettings spacing="single"/>
+          <geometryInfo x="0.25000" y="0.20000" width="0.83337"
+           height="0.16663"/>
+          <textSegment>
+            <font face="Courier New" size="8"/>
+            <string>
+            <![CDATA[Direccion:]]>
+            </string>
+          </textSegment>
+        </text>
+        <field name="F_DIR" source="CF_DIREC" minWidowLines="1"
+         spacing="single" alignment="start">
+          <font face="Courier New" size="8"/>
+          <geometryInfo x="1.25000" y="0.20000" width="4.50000"
+           height="0.25000"/>
+          <generalLayout verticalElasticity="expand"/>
+        </field>
+        <text name="B_TelLbl" minWidowLines="1">
+          <textSettings spacing="single"/>
+          <geometryInfo x="6.00000" y="0.20000" width="0.65625"
+           height="0.14587"/>
+          <textSegment>
+            <font face="Courier New" size="8"/>
+            <string>
+            <![CDATA[Telefono:]]>
+            </string>
+          </textSegment>
+        </text>
+        <field name="F_TEL" source="CF_TEL" minWidowLines="1" spacing="single"
+         alignment="start">
+          <font face="Courier New" size="8"/>
+          <geometryInfo x="6.75000" y="0.20000" width="1.25000"
+           height="0.25000"/>
+        </field>
+        <text name="B_IdClienteLbl" minWidowLines="1">
+          <textSettings spacing="single"/>
+          <geometryInfo x="8.50000" y="0.20000" width="1.00000"
+           height="0.16663"/>
+          <textSegment>
+            <font face="Courier New" size="8"/>
+            <string>
+            <![CDATA[ID. Cliente:]]>
+            </string>
+          </textSegment>
+        </text>
+        <field name="F_NUM_ID" source="CF_NUM_ID" minWidowLines="1"
+         spacing="single" alignment="start">
+          <font face="Courier New" size="8"/>
+          <geometryInfo x="9.50000" y="0.20000" width="1.25000"
+           height="0.25000"/>
+        </field>
+        <field name="F_CF_TC" source="CF_TipCambio" minWidowLines="1"
+         spacing="0" alignment="center">
+          <font face="Courier New" size="7" italic="yes"/>
+          <geometryInfo x="0.00000" y="0.45000" width="10.92188"
+           height="0.25000"/>
+        </field>
+      </repeatingFrame>
+      <frame name="M_G_EMPRESA_GRPFR">
+        <geometryInfo x="0.00000" y="0.70000" width="10.92188"
          height="1.00000"/>
         <generalLayout verticalElasticity="variable"/>
         <visualSettings fillBackgroundColor="r0g75b0"/>
       </frame>
       <repeatingFrame name="R_G_EMPRESA" source="G_EMPRESA"
        printDirection="down" minWidowRecords="1" columnMode="no">
-        <geometryInfo x="0.00000" y="0.00000" width="10.92188"
+        <geometryInfo x="0.00000" y="0.70000" width="10.92188"
          height="4.50000"/>
         <generalLayout verticalElasticity="variable"/>
         <visualSettings fillBackgroundColor="r100g25b0"/>
@@ -1862,9 +1933,9 @@ ORDER BY FEC_INICIO;]]>
       <repeatingFrame name="R_General" source="G_General"
        printDirection="down" minWidowRecords="1" columnMode="no">
         <geometryInfo x="0.00000" y="0.00000" width="11.00000"
-         height="1.25000"/>
-        <generalLayout verticalElasticity="variable"
-         horizontalElasticity="variable"/>
+         height="0.55000"/>
+        <generalLayout verticalElasticity="fixed"
+         horizontalElasticity="fixed"/>
         <visualSettings fillBackgroundColor="r50g100b0"/>
         <field name="F_CF_TitEmpresa" source="CF_TitEmpresa" minWidowLines="1"
          spacing="single" alignment="start">
@@ -1883,14 +1954,6 @@ ORDER BY FEC_INICIO;]]>
           <font face="Courier New" size="8" bold="yes" textColor="r0g0b50"/>
           <geometryInfo x="0.06250" y="0.38000" width="6.00000"
            height="0.14587"/>
-        </field>
-        <field name="F_CF_TitReporte" source="CF_TitReporte" minWidowLines="1"
-         spacing="single" alignment="center">
-          <font face="Courier New" size="10" bold="yes" textColor="r0g0b50"/>
-          <geometryInfo x="0.06250" y="0.56006" width="10.80005"
-           height="0.18005"/>
-          <advancedLayout formatTrigger="solo_pagina1"/>
-          <visualSettings fillBackgroundColor="r50g75b50"/>
         </field>
         <text name="B_Usr" minWidowLines="1">
           <textSettings spacing="single"/>
@@ -1964,71 +2027,6 @@ ORDER BY FEC_INICIO;]]>
           <pageNumbering header="yes" main="yes" trailer="yes" startAt="1"
            incrementBy="1" resetAt="report"/>
         </field>
-        <field name="F_DIR" source="CF_DIREC" minWidowLines="1"
-         spacing="single" alignment="start">
-          <font face="Courier New" size="8"/>
-          <geometryInfo x="1.25000" y="0.75000" width="4.50000"
-           height="0.25000"/>
-          <generalLayout verticalElasticity="expand"/>
-          <advancedLayout formatTrigger="solo_pagina1"/>
-        </field>
-        <field name="F_CF_TC" source="CF_TipCambio" minWidowLines="1"
-         spacing="0" alignment="center">
-          <font face="Courier New" size="7" italic="yes"/>
-          <geometryInfo x="0.00000" y="1.00000" width="11.00000"
-           height="0.25000"/>
-          <advancedLayout formatTrigger="solo_pagina1"/>
-        </field>
-        <text name="B_DirLbl" minWidowLines="1">
-          <textSettings spacing="single"/>
-          <geometryInfo x="0.25000" y="0.75000" width="0.83337"
-           height="0.16663"/>
-          <advancedLayout formatTrigger="solo_pagina1"/>
-          <textSegment>
-            <font face="Courier New" size="8"/>
-            <string>
-            <![CDATA[Direccion:]]>
-            </string>
-          </textSegment>
-        </text>
-        <field name="F_TEL" source="CF_TEL" minWidowLines="1" spacing="single"
-         alignment="start">
-          <font face="Courier New" size="8"/>
-          <geometryInfo x="6.75000" y="0.75000" width="1.25000"
-           height="0.25000"/>
-          <advancedLayout formatTrigger="solo_pagina1"/>
-        </field>
-        <text name="B_TelLbl" minWidowLines="1">
-          <textSettings spacing="single"/>
-          <geometryInfo x="6.00000" y="0.75000" width="0.65625"
-           height="0.14587"/>
-          <advancedLayout formatTrigger="solo_pagina1"/>
-          <textSegment>
-            <font face="Courier New" size="8"/>
-            <string>
-            <![CDATA[Telefono:]]>
-            </string>
-          </textSegment>
-        </text>
-        <field name="F_NUM_ID" source="CF_NUM_ID" minWidowLines="1"
-         spacing="single" alignment="start">
-          <font face="Courier New" size="8"/>
-          <geometryInfo x="9.50000" y="0.75000" width="1.25000"
-           height="0.25000"/>
-          <advancedLayout formatTrigger="solo_pagina1"/>
-        </field>
-        <text name="B_IdClienteLbl" minWidowLines="1">
-          <textSettings spacing="single"/>
-          <geometryInfo x="8.50000" y="0.75000" width="1.00000"
-           height="0.16663"/>
-          <advancedLayout formatTrigger="solo_pagina1"/>
-          <textSegment>
-            <font face="Courier New" size="8"/>
-            <string>
-            <![CDATA[ID. Cliente:]]>
-            </string>
-          </textSegment>
-        </text>
       </repeatingFrame>
     </margin>
   </section>
