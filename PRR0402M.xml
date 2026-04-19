@@ -335,7 +335,7 @@ ORDER BY TO_NUMBER (E.COD_EMPRESA);]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="NUM_TRAM_MOD_LIN" oracleDatatype="number"
-         columnOrder="99" width="22" defaultWidth="120000"
+         columnOrder="55" width="22" defaultWidth="120000"
          defaultHeight="10000" columnFlags="1" defaultLabel="Num Tram Mod">
           <xmlSettings xmlTag="NUM_TRAM_MOD"/>
           <dataDescriptor expression="NUM_TRAMITE_MODIF"
@@ -369,14 +369,14 @@ ORDER BY FEC_INICIO;]]>
       <group name="G_OPERACIONES_BL">
         <displayInfo x="7.97095" y="1.04993" width="1.87488" height="2.99414"
         />
-        <dataItem name="COD_EMPRESA_BL" datatype="vchar2" columnOrder="55"
+        <dataItem name="COD_EMPRESA_BL" datatype="vchar2" columnOrder="56"
          width="5" defaultWidth="50000" defaultHeight="10000" columnFlags="1"
          defaultLabel="Cod Empresa Bl">
           <dataDescriptor expression="COD_EMPRESA"
            descriptiveExpression="COD_EMPRESA_BL" order="1" width="5"/>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
-        <dataItem name="NO_OPERACION_BL" datatype="vchar2" columnOrder="56"
+        <dataItem name="NO_OPERACION_BL" datatype="vchar2" columnOrder="57"
          width="20" defaultWidth="100000" defaultHeight="10000"
          columnFlags="1" defaultLabel="No Operacion Bl">
           <dataDescriptor expression="NO_OPERACION"
@@ -384,7 +384,7 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="NUM_TRAMITE_BL" oracleDatatype="number"
-         columnOrder="57" width="22" defaultWidth="120000"
+         columnOrder="58" width="22" defaultWidth="120000"
          defaultHeight="10000" columnFlags="1" defaultLabel="Num Tramite Bl">
           <dataDescriptor expression="NUM_TRAMITE"
            descriptiveExpression="NUM_TRAMITE_BL" order="3"
@@ -392,7 +392,7 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="FEC_INICIO_BL" datatype="date" oracleDatatype="date"
-         columnOrder="58" width="9" defaultWidth="90000" defaultHeight="10000"
+         columnOrder="59" width="9" defaultWidth="90000" defaultHeight="10000"
          columnFlags="1" defaultLabel="Fec Inicio Bl">
           <dataDescriptor expression="FEC_INICIO"
            descriptiveExpression="FEC_INICIO_BL" order="4"
@@ -400,7 +400,7 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="FEC_VENCIMIENTO_BL" datatype="date"
-         oracleDatatype="date" columnOrder="59" width="9" defaultWidth="90000"
+         oracleDatatype="date" columnOrder="60" width="9" defaultWidth="90000"
          defaultHeight="10000" columnFlags="1"
          defaultLabel="Fec Vencimiento Bl">
           <dataDescriptor expression="FEC_VENCIMIENTO"
@@ -409,7 +409,7 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="SALDO_CONTINGENTE_BL" oracleDatatype="number"
-         columnOrder="60" width="22" defaultWidth="90000"
+         columnOrder="61" width="22" defaultWidth="90000"
          defaultHeight="10000" columnFlags="1"
          defaultLabel="Saldo Contingente Bl">
           <dataDescriptor expression="SALDO_CONTINGENTE"
@@ -418,7 +418,7 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="SALDO_DIRECTO_BL" oracleDatatype="number"
-         columnOrder="61" width="22" defaultWidth="90000"
+         columnOrder="62" width="22" defaultWidth="90000"
          defaultHeight="10000" columnFlags="1" defaultLabel="Saldo Directo Bl">
           <dataDescriptor expression="SALDO_DIRECTO"
            descriptiveExpression="SALDO_DIRECTO_BL" order="7"
@@ -426,7 +426,7 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="MONTO_DESEMBOLSADO_BL" oracleDatatype="number"
-         columnOrder="62" width="22" defaultWidth="90000"
+         columnOrder="63" width="22" defaultWidth="90000"
          defaultHeight="10000" columnFlags="1"
          defaultLabel="Monto Desembolsado Bl">
           <dataDescriptor expression="MONTO_DESEMBOLSADO"
@@ -434,28 +434,28 @@ ORDER BY FEC_INICIO;]]>
            oracleDatatype="number" width="22" scale="2" precision="16"/>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
-        <dataItem name="DES_MONEDA_BL" datatype="vchar2" columnOrder="63"
+        <dataItem name="DES_MONEDA_BL" datatype="vchar2" columnOrder="64"
          width="60" defaultWidth="100000" defaultHeight="10000"
          columnFlags="1" defaultLabel="Des Moneda Bl">
           <dataDescriptor expression="DES_MONEDA"
            descriptiveExpression="DES_MONEDA_BL" order="9" width="60"/>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
-        <dataItem name="DES_ESTADO_BL" datatype="vchar2" columnOrder="64"
+        <dataItem name="DES_ESTADO_BL" datatype="vchar2" columnOrder="65"
          width="20" defaultWidth="100000" defaultHeight="10000"
          columnFlags="1" defaultLabel="Des Estado Bl">
           <dataDescriptor expression="DES_ESTADO"
            descriptiveExpression="DES_ESTADO_BL" order="10" width="20"/>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
-        <dataItem name="DES_INSTRUMENTO_BL" datatype="vchar2" columnOrder="65"
+        <dataItem name="DES_INSTRUMENTO_BL" datatype="vchar2" columnOrder="66"
          width="60" defaultWidth="100000" defaultHeight="10000"
          columnFlags="1" defaultLabel="Des Instrumento Bl">
           <dataDescriptor expression="DES_INSTRUMENTO"
            descriptiveExpression="DES_INSTRUMENTO_BL" order="11" width="60"/>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
-        <dataItem name="DES_PRODUCTO_BL" datatype="vchar2" columnOrder="66"
+        <dataItem name="DES_PRODUCTO_BL" datatype="vchar2" columnOrder="67"
          width="60" defaultWidth="100000" defaultHeight="10000"
          columnFlags="1" defaultLabel="Des Producto Bl">
           <dataDescriptor expression="DES_PRODUCTO"
@@ -463,7 +463,7 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="NUM_TRAMITE_PADRE_BL" oracleDatatype="number"
-         columnOrder="67" width="22" defaultWidth="120000"
+         columnOrder="68" width="22" defaultWidth="120000"
          defaultHeight="10000" columnFlags="1"
          defaultLabel="Num Tramite Padre Bl">
           <dataDescriptor expression="NUM_TRAMITE_PADRE"
@@ -472,7 +472,7 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="FEC_VTO_PROX_CUOTA_BL" datatype="date"
-         oracleDatatype="date" columnOrder="68" width="9" defaultWidth="90000"
+         oracleDatatype="date" columnOrder="69" width="9" defaultWidth="90000"
          defaultHeight="10000" columnFlags="1"
          defaultLabel="Fec Vto Prox Cuota Bl">
           <dataDescriptor expression="FEC_VTO_PROX_CUOTA"
@@ -505,14 +505,14 @@ ORDER BY FEC_INICIO;]]>
       <group name="G_OPERACIONES_FL">
         <displayInfo x="2.25427" y="4.65601" width="2.22485" height="2.60352"
         />
-        <dataItem name="COD_EMPRESA_FL" datatype="vchar2" columnOrder="69"
+        <dataItem name="COD_EMPRESA_FL" datatype="vchar2" columnOrder="70"
          width="5" defaultWidth="50000" defaultHeight="10000" columnFlags="1"
          defaultLabel="Cod Empresa Fl">
           <dataDescriptor expression="COD_EMPRESA"
            descriptiveExpression="COD_EMPRESA_FL" order="1" width="5"/>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
-        <dataItem name="NO_OPERACION_FL" datatype="vchar2" columnOrder="70"
+        <dataItem name="NO_OPERACION_FL" datatype="vchar2" columnOrder="71"
          width="20" defaultWidth="100000" defaultHeight="10000"
          columnFlags="1" defaultLabel="No Operacion Fl">
           <dataDescriptor expression="NO_OPERACION"
@@ -520,7 +520,7 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="NUM_TRAMITE_FL" oracleDatatype="number"
-         columnOrder="71" width="22" defaultWidth="120000"
+         columnOrder="72" width="22" defaultWidth="120000"
          defaultHeight="10000" columnFlags="1" defaultLabel="Num Tramite Fl">
           <dataDescriptor expression="NUM_TRAMITE"
            descriptiveExpression="NUM_TRAMITE_FL" order="3" width="22"
@@ -528,14 +528,14 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="FEC_INICIO_FL" datatype="date" oracleDatatype="date"
-         columnOrder="72" width="9" defaultWidth="90000" defaultHeight="10000"
+         columnOrder="73" width="9" defaultWidth="90000" defaultHeight="10000"
          columnFlags="1" defaultLabel="Fec Inicio Fl">
           <dataDescriptor expression="FEC_INICIO"
            descriptiveExpression="FEC_INICIO_FL" order="4" width="9"/>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="FEC_VENCIMIENTO_FL" datatype="date"
-         oracleDatatype="date" columnOrder="73" width="9" defaultWidth="90000"
+         oracleDatatype="date" columnOrder="74" width="9" defaultWidth="90000"
          defaultHeight="10000" columnFlags="1"
          defaultLabel="Fec Vencimiento Fl">
           <dataDescriptor expression="FEC_VENCIMIENTO"
@@ -543,7 +543,7 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="SALDO_CONTINGENTE_FL" oracleDatatype="number"
-         columnOrder="74" width="22" defaultWidth="90000"
+         columnOrder="75" width="22" defaultWidth="90000"
          defaultHeight="10000" columnFlags="1"
          defaultLabel="Saldo Contingente Fl">
           <dataDescriptor expression="SALDO_CONTINGENTE"
@@ -552,7 +552,7 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="SALDO_DIRECTO_FL" oracleDatatype="number"
-         columnOrder="75" width="22" defaultWidth="90000"
+         columnOrder="76" width="22" defaultWidth="90000"
          defaultHeight="10000" columnFlags="1" defaultLabel="Saldo Directo Fl">
           <dataDescriptor expression="SALDO_DIRECTO"
            descriptiveExpression="SALDO_DIRECTO_FL" order="7" width="22"
@@ -560,7 +560,7 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="MONTO_DESEMBOLSADO_FL" oracleDatatype="number"
-         columnOrder="76" width="22" defaultWidth="90000"
+         columnOrder="77" width="22" defaultWidth="90000"
          defaultHeight="10000" columnFlags="1"
          defaultLabel="Monto Desembolsado Fl">
           <dataDescriptor expression="MONTO_DESEMBOLSADO"
@@ -568,28 +568,28 @@ ORDER BY FEC_INICIO;]]>
            scale="2" precision="16"/>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
-        <dataItem name="DES_MONEDA_FL" datatype="vchar2" columnOrder="77"
+        <dataItem name="DES_MONEDA_FL" datatype="vchar2" columnOrder="78"
          width="60" defaultWidth="100000" defaultHeight="10000"
          columnFlags="1" defaultLabel="Des Moneda Fl">
           <dataDescriptor expression="DES_MONEDA"
            descriptiveExpression="DES_MONEDA_FL" order="9" width="60"/>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
-        <dataItem name="DES_ESTADO_FL" datatype="vchar2" columnOrder="78"
+        <dataItem name="DES_ESTADO_FL" datatype="vchar2" columnOrder="79"
          width="20" defaultWidth="100000" defaultHeight="10000"
          columnFlags="1" defaultLabel="Des Estado Fl">
           <dataDescriptor expression="DES_ESTADO"
            descriptiveExpression="DES_ESTADO_FL" order="10" width="20"/>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
-        <dataItem name="DES_INSTRUMENTO_FL" datatype="vchar2" columnOrder="79"
+        <dataItem name="DES_INSTRUMENTO_FL" datatype="vchar2" columnOrder="80"
          width="60" defaultWidth="100000" defaultHeight="10000"
          columnFlags="1" defaultLabel="Des Instrumento Fl">
           <dataDescriptor expression="DES_INSTRUMENTO"
            descriptiveExpression="DES_INSTRUMENTO_FL" order="11" width="60"/>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
-        <dataItem name="DES_PRODUCTO_FL" datatype="vchar2" columnOrder="80"
+        <dataItem name="DES_PRODUCTO_FL" datatype="vchar2" columnOrder="81"
          width="60" defaultWidth="100000" defaultHeight="10000"
          columnFlags="1" defaultLabel="Des Producto Fl">
           <dataDescriptor expression="DES_PRODUCTO"
@@ -597,7 +597,7 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="FEC_VTO_PROX_CUOTA_FL" datatype="date"
-         oracleDatatype="date" columnOrder="81" width="9" defaultWidth="90000"
+         oracleDatatype="date" columnOrder="82" width="9" defaultWidth="90000"
          defaultHeight="10000" columnFlags="1"
          defaultLabel="Fec Vto Prox Cuota Fl">
           <dataDescriptor expression="FEC_VTO_PROX_CUOTA"
@@ -629,14 +629,14 @@ ORDER BY FEC_INICIO;]]>
       <group name="G_OPERACIONES_IND">
         <displayInfo x="5.07495" y="4.99170" width="2.27490" height="2.40820"
         />
-        <dataItem name="COD_EMPRESA_IND" datatype="vchar2" columnOrder="82"
+        <dataItem name="COD_EMPRESA_IND" datatype="vchar2" columnOrder="83"
          width="5" defaultWidth="50000" defaultHeight="10000" columnFlags="1"
          defaultLabel="Cod Empresa Ind">
           <dataDescriptor expression="COD_EMPRESA"
            descriptiveExpression="COD_EMPRESA_IND" order="1" width="5"/>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
-        <dataItem name="NO_OPERACION_IND" datatype="vchar2" columnOrder="83"
+        <dataItem name="NO_OPERACION_IND" datatype="vchar2" columnOrder="84"
          width="20" defaultWidth="100000" defaultHeight="10000"
          columnFlags="1" defaultLabel="No Operacion Ind">
           <dataDescriptor expression="NO_OPERACION"
@@ -644,7 +644,7 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="NUM_TRAMITE_IND" oracleDatatype="number"
-         columnOrder="84" width="22" defaultWidth="120000"
+         columnOrder="85" width="22" defaultWidth="120000"
          defaultHeight="10000" columnFlags="1" defaultLabel="Num Tramite Ind">
           <dataDescriptor expression="NUM_TRAMITE"
            descriptiveExpression="NUM_TRAMITE_IND" order="3" width="22"
@@ -652,14 +652,14 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="FEC_INICIO_IND" datatype="date" oracleDatatype="date"
-         columnOrder="85" width="9" defaultWidth="90000" defaultHeight="10000"
+         columnOrder="86" width="9" defaultWidth="90000" defaultHeight="10000"
          columnFlags="1" defaultLabel="Fec Inicio Ind">
           <dataDescriptor expression="FEC_INICIO"
            descriptiveExpression="FEC_INICIO_IND" order="4" width="9"/>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="FEC_VENCIMIENTO_IND" datatype="date"
-         oracleDatatype="date" columnOrder="86" width="9" defaultWidth="90000"
+         oracleDatatype="date" columnOrder="87" width="9" defaultWidth="90000"
          defaultHeight="10000" columnFlags="1"
          defaultLabel="Fec Vencimiento Ind">
           <dataDescriptor expression="FEC_VENCIMIENTO"
@@ -667,7 +667,7 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="SALDO_CONTINGENTE_IND" oracleDatatype="number"
-         columnOrder="87" width="22" defaultWidth="90000"
+         columnOrder="88" width="22" defaultWidth="90000"
          defaultHeight="10000" columnFlags="1"
          defaultLabel="Saldo Contingente Ind">
           <dataDescriptor expression="SALDO_CONTINGENTE"
@@ -676,7 +676,7 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="SALDO_DIRECTO_IND" oracleDatatype="number"
-         columnOrder="88" width="22" defaultWidth="90000"
+         columnOrder="89" width="22" defaultWidth="90000"
          defaultHeight="10000" columnFlags="1"
          defaultLabel="Saldo Directo Ind">
           <dataDescriptor expression="SALDO_DIRECTO"
@@ -685,7 +685,7 @@ ORDER BY FEC_INICIO;]]>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
         <dataItem name="MONTO_DESEMBOLSADO_IND" oracleDatatype="number"
-         columnOrder="89" width="22" defaultWidth="90000"
+         columnOrder="90" width="22" defaultWidth="90000"
          defaultHeight="10000" columnFlags="1"
          defaultLabel="Monto Desembolsado Ind">
           <dataDescriptor expression="MONTO_DESEMBOLSADO"
@@ -693,28 +693,28 @@ ORDER BY FEC_INICIO;]]>
            scale="2" precision="16"/>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
-        <dataItem name="DES_MONEDA_IND" datatype="vchar2" columnOrder="90"
+        <dataItem name="DES_MONEDA_IND" datatype="vchar2" columnOrder="91"
          width="60" defaultWidth="100000" defaultHeight="10000"
          columnFlags="1" defaultLabel="Des Moneda Ind">
           <dataDescriptor expression="DES_MONEDA"
            descriptiveExpression="DES_MONEDA_IND" order="9" width="60"/>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
-        <dataItem name="DES_ESTADO_IND" datatype="vchar2" columnOrder="91"
+        <dataItem name="DES_ESTADO_IND" datatype="vchar2" columnOrder="92"
          width="20" defaultWidth="100000" defaultHeight="10000"
          columnFlags="1" defaultLabel="Des Estado Ind">
           <dataDescriptor expression="DES_ESTADO"
            descriptiveExpression="DES_ESTADO_IND" order="10" width="20"/>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
-        <dataItem name="NOM_CLIENTE_IND" datatype="vchar2" columnOrder="92"
+        <dataItem name="NOM_CLIENTE_IND" datatype="vchar2" columnOrder="93"
          width="100" defaultWidth="100000" defaultHeight="10000"
          columnFlags="1" defaultLabel="Nom Cliente Ind">
           <dataDescriptor expression="NOM_CLIENTE"
            descriptiveExpression="NOM_CLIENTE_IND" order="11" width="100"/>
           <dataItemPrivate adtName="" schemaName=""/>
         </dataItem>
-        <dataItem name="DES_PRODUCTO_IND" datatype="vchar2" columnOrder="93"
+        <dataItem name="DES_PRODUCTO_IND" datatype="vchar2" columnOrder="94"
          width="60" defaultWidth="100000" defaultHeight="10000"
          columnFlags="1" defaultLabel="Des Producto Ind">
           <dataDescriptor expression="DES_PRODUCTO"
@@ -723,6 +723,11 @@ ORDER BY FEC_INICIO;]]>
         </dataItem>
       </group>
     </dataSource>
+    <formula name="CF_DIREC" source="cf_direcformula" datatype="character"
+     width="160" precision="10" defaultWidth="0" defaultHeight="0"
+     columnFlags="16" breakOrder="none">
+      <displayInfo x="0.38538" y="3.31250" width="1.34375" height="0.21875"/>
+    </formula>
     <summary name="CS_ME_TOT_CONT" source="CF_TOT_CONT" function="sum"
      width="18" precision="16" scale="2" reset="report" compute="report"
      defaultWidth="0" defaultHeight="0" columnFlags="8"
@@ -735,11 +740,6 @@ ORDER BY FEC_INICIO;]]>
      defaultLabel="Cs Me Tot Dir">
       <displayInfo x="0.40625" y="2.64587" width="1.37500" height="0.19995"/>
     </summary>
-    <formula name="CF_DIREC" source="cf_direcformula" datatype="character"
-     width="160" precision="10" defaultWidth="0" defaultHeight="0"
-     columnFlags="16" breakOrder="none">
-      <displayInfo x="0.38538" y="3.31250" width="1.34375" height="0.21875"/>
-    </formula>
     <formula name="CF_NUM_ID" source="cf_num_idformula" datatype="character"
      width="30" precision="10" defaultWidth="0" defaultHeight="0"
      columnFlags="16" breakOrder="none">
@@ -750,19 +750,19 @@ ORDER BY FEC_INICIO;]]>
      breakOrder="none">
       <displayInfo x="0.42712" y="4.04163" width="1.28125" height="0.21875"/>
     </formula>
-    <link parentGroup="G_EMPRESA" parentColumn="cod_empresa"
+    <link name="L_1" parentGroup="G_EMPRESA" parentColumn="cod_empresa"
      childQuery="Q_Linea" childColumn="COD_EMPRESA_LIN" condition="eq"
      sqlClause="where"/>
-    <link parentGroup="G_LINEAS" parentColumn="COD_EMPRESA_LIN"
+    <link name="L_2" parentGroup="G_LINEAS" parentColumn="COD_EMPRESA_LIN"
      childQuery="Q_OP_BL" childColumn="COD_EMPRESA_BL" condition="eq"
      sqlClause="where"/>
-    <link parentGroup="G_LINEAS" parentColumn="NUM_TRAMITE_LIN"
+    <link name="L_3" parentGroup="G_LINEAS" parentColumn="NUM_TRAMITE_LIN"
      childQuery="Q_OP_BL" childColumn="NUM_TRAMITE_PADRE_BL" condition="eq"
      sqlClause="where"/>
-    <link parentGroup="G_EMPRESA" parentColumn="cod_empresa"
+    <link name="L_4" parentGroup="G_EMPRESA" parentColumn="cod_empresa"
      childQuery="Q_OP_FL" childColumn="COD_EMPRESA_FL" condition="eq"
      sqlClause="where"/>
-    <link parentGroup="G_EMPRESA" parentColumn="cod_empresa"
+    <link name="L_5" parentGroup="G_EMPRESA" parentColumn="cod_empresa"
      childQuery="Q_OP_IND" childColumn="COD_EMPRESA_IND" condition="eq"
      sqlClause="where"/>
   </data>
@@ -779,24 +779,27 @@ ORDER BY FEC_INICIO;]]>
     </body>
   </section>
   <section name="main" width="11.00000" height="8.50000">
-    <body width="10.95837" height="6.95300">
-      <location x="0.00000" y="1.48962"/>
+    <body width="10.95837" height="7.19263">
+      <location x="0.00000" y="1.25000"/>
       <frame name="M_G_EMPRESA_GRPFR">
         <geometryInfo x="0.00000" y="0.00000" width="10.92188"
          height="1.00000"/>
         <generalLayout verticalElasticity="variable"/>
+        <visualSettings fillBackgroundColor="r0g75b0"/>
       </frame>
       <repeatingFrame name="R_G_EMPRESA" source="G_EMPRESA"
        printDirection="down" minWidowRecords="1" columnMode="no">
         <geometryInfo x="0.00000" y="0.00000" width="10.92188"
-         height="4.87500"/>
+         height="4.50000"/>
         <generalLayout verticalElasticity="variable"/>
+        <visualSettings fillBackgroundColor="r100g25b0"/>
         <text name="B_EmpresaLbl" minWidowLines="1">
           <textSettings spacing="0"/>
           <geometryInfo x="0.05005" y="0.00000" width="0.90002"
            height="0.14587"/>
           <textSegment>
-            <font face="Courier New" size="9" bold="yes"/>
+            <font face="Courier New" size="10" bold="yes" textColor="r0g0b50"
+            />
             <string>
             <![CDATA[Empresa :]]>
             </string>
@@ -804,13 +807,13 @@ ORDER BY FEC_INICIO;]]>
         </text>
         <field name="F_cod_empresa" source="cod_empresa" minWidowLines="1"
          spacing="0" alignment="start">
-          <font face="Courier New" size="9" bold="yes"/>
+          <font face="Courier New" size="10" bold="yes" textColor="r0g0b50"/>
           <geometryInfo x="0.94995" y="0.00000" width="0.50000"
            height="0.14587"/>
         </field>
         <field name="F_TIT_REPORTES" source="TIT_REPORTES" minWidowLines="1"
          spacing="0" alignment="start">
-          <font face="Courier New" size="9" bold="yes"/>
+          <font face="Courier New" size="10" bold="yes" textColor="r0g0b50"/>
           <geometryInfo x="1.50000" y="0.00000" width="6.00000"
            height="0.14587"/>
         </field>
@@ -1763,13 +1766,13 @@ ORDER BY FEC_INICIO;]]>
           </text>
         </frame>
         <field name="F_CF_TOT_CONT" source="CF_TOT_CONT" minWidowLines="1"
-         spacing="0" alignment="center">
+         spacing="0" alignment="end">
           <font face="Courier New" size="10" bold="yes"/>
           <geometryInfo x="9.50000" y="4.25000" width="1.25000"
            height="0.25000"/>
         </field>
         <field name="F_CF_TOT_DIR" source="CF_TOT_DIR" minWidowLines="1"
-         spacing="0" alignment="center">
+         spacing="0" alignment="end">
           <font face="Courier New" size="10" bold="yes"/>
           <geometryInfo x="8.00000" y="4.25122" width="1.25000"
            height="0.24878"/>
@@ -1832,20 +1835,20 @@ ORDER BY FEC_INICIO;]]>
         </text>
       </repeatingFrame>
       <field name="F_CS_ME_TOT_CONT" source="CS_ME_TOT_CONT" minWidowLines="1"
-       spacing="0" alignment="center">
+       spacing="0" alignment="end">
         <font face="Courier New" size="10" bold="yes"/>
-        <geometryInfo x="9.50000" y="5.00000" width="1.25000" height="0.25000"
+        <geometryInfo x="9.50000" y="4.75000" width="1.25000" height="0.25000"
         />
       </field>
       <field name="F_CS_ME_TOT_DIR" source="CS_ME_TOT_DIR" minWidowLines="1"
-       spacing="0" alignment="center">
+       spacing="0" alignment="end">
         <font face="Courier New" size="10" bold="yes"/>
-        <geometryInfo x="8.00000" y="5.00000" width="1.25000" height="0.25000"
+        <geometryInfo x="8.00000" y="4.75000" width="1.25000" height="0.25000"
         />
       </field>
       <text name="B_TotMultiEmpLbl" minWidowLines="1">
         <textSettings justify="center" spacing="0"/>
-        <geometryInfo x="2.50000" y="5.00000" width="5.12500" height="0.25000"
+        <geometryInfo x="2.50000" y="4.75000" width="5.12500" height="0.25000"
         />
         <textSegment>
           <font face="Courier New" size="10" bold="yes"/>
@@ -1859,9 +1862,10 @@ ORDER BY FEC_INICIO;]]>
       <repeatingFrame name="R_General" source="G_General"
        printDirection="down" minWidowRecords="1" columnMode="no">
         <geometryInfo x="0.00000" y="0.00000" width="11.00000"
-         height="1.68750"/>
+         height="1.25000"/>
         <generalLayout verticalElasticity="variable"
          horizontalElasticity="variable"/>
+        <visualSettings fillBackgroundColor="r50g100b0"/>
         <field name="F_CF_TitEmpresa" source="CF_TitEmpresa" minWidowLines="1"
          spacing="single" alignment="start">
           <font face="Courier New" size="9" bold="yes" textColor="r0g0b50"/>
@@ -1883,9 +1887,10 @@ ORDER BY FEC_INICIO;]]>
         <field name="F_CF_TitReporte" source="CF_TitReporte" minWidowLines="1"
          spacing="single" alignment="center">
           <font face="Courier New" size="10" bold="yes" textColor="r0g0b50"/>
-          <geometryInfo x="0.06250" y="0.81006" width="10.80005"
+          <geometryInfo x="0.06250" y="0.56006" width="10.80005"
            height="0.18005"/>
           <advancedLayout formatTrigger="solo_pagina1"/>
+          <visualSettings fillBackgroundColor="r50g75b50"/>
         </field>
         <text name="B_Usr" minWidowLines="1">
           <textSettings spacing="single"/>
@@ -1962,7 +1967,7 @@ ORDER BY FEC_INICIO;]]>
         <field name="F_DIR" source="CF_DIREC" minWidowLines="1"
          spacing="single" alignment="start">
           <font face="Courier New" size="8"/>
-          <geometryInfo x="1.25000" y="1.00000" width="4.50000"
+          <geometryInfo x="1.25000" y="0.75000" width="4.50000"
            height="0.25000"/>
           <generalLayout verticalElasticity="expand"/>
           <advancedLayout formatTrigger="solo_pagina1"/>
@@ -1970,13 +1975,13 @@ ORDER BY FEC_INICIO;]]>
         <field name="F_CF_TC" source="CF_TipCambio" minWidowLines="1"
          spacing="0" alignment="center">
           <font face="Courier New" size="7" italic="yes"/>
-          <geometryInfo x="0.00000" y="1.25000" width="11.00000"
+          <geometryInfo x="0.00000" y="1.00000" width="11.00000"
            height="0.25000"/>
           <advancedLayout formatTrigger="solo_pagina1"/>
         </field>
         <text name="B_DirLbl" minWidowLines="1">
           <textSettings spacing="single"/>
-          <geometryInfo x="0.25000" y="1.00000" width="0.83337"
+          <geometryInfo x="0.25000" y="0.75000" width="0.83337"
            height="0.16663"/>
           <advancedLayout formatTrigger="solo_pagina1"/>
           <textSegment>
@@ -1989,13 +1994,13 @@ ORDER BY FEC_INICIO;]]>
         <field name="F_TEL" source="CF_TEL" minWidowLines="1" spacing="single"
          alignment="start">
           <font face="Courier New" size="8"/>
-          <geometryInfo x="6.75000" y="1.00000" width="1.25000"
+          <geometryInfo x="6.75000" y="0.75000" width="1.25000"
            height="0.25000"/>
           <advancedLayout formatTrigger="solo_pagina1"/>
         </field>
         <text name="B_TelLbl" minWidowLines="1">
           <textSettings spacing="single"/>
-          <geometryInfo x="6.00000" y="1.00000" width="0.65625"
+          <geometryInfo x="6.00000" y="0.75000" width="0.65625"
            height="0.14587"/>
           <advancedLayout formatTrigger="solo_pagina1"/>
           <textSegment>
@@ -2008,13 +2013,13 @@ ORDER BY FEC_INICIO;]]>
         <field name="F_NUM_ID" source="CF_NUM_ID" minWidowLines="1"
          spacing="single" alignment="start">
           <font face="Courier New" size="8"/>
-          <geometryInfo x="9.50000" y="1.00000" width="1.25000"
+          <geometryInfo x="9.50000" y="0.75000" width="1.25000"
            height="0.25000"/>
           <advancedLayout formatTrigger="solo_pagina1"/>
         </field>
         <text name="B_IdClienteLbl" minWidowLines="1">
           <textSettings spacing="single"/>
-          <geometryInfo x="8.50000" y="1.00000" width="1.00000"
+          <geometryInfo x="8.50000" y="0.75000" width="1.00000"
            height="0.16663"/>
           <advancedLayout formatTrigger="solo_pagina1"/>
           <textSegment>
@@ -2330,8 +2335,10 @@ end;]]>
     <function name="solo_pagina1">
       <textSource>
       <![CDATA[function solo_pagina1 return boolean is
+	vl_pagina number;
 begin
-   return (:PhysicalPageNumber = 1);
+	srw.get_page_num(vl_pagina);
+	return (vl_pagina = 1);
 end;]]>
       </textSource>
     </function>
