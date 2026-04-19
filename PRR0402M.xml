@@ -1860,7 +1860,7 @@ ORDER BY FEC_INICIO;]]>
        printDirection="down" minWidowRecords="1" columnMode="no">
         <geometryInfo x="0.00000" y="0.00000" width="11.00000"
          height="1.68750"/>
-        <generalLayout verticalElasticity="expand"
+        <generalLayout verticalElasticity="variable"
          horizontalElasticity="variable"/>
         <field name="F_CF_TitEmpresa" source="CF_TitEmpresa" minWidowLines="1"
          spacing="single" alignment="start">
@@ -1885,6 +1885,7 @@ ORDER BY FEC_INICIO;]]>
           <font face="Courier New" size="10" bold="yes" textColor="r0g0b50"/>
           <geometryInfo x="0.06250" y="0.81006" width="10.80005"
            height="0.18005"/>
+          <advancedLayout formatTrigger="solo_pagina1"/>
         </field>
         <text name="B_Usr" minWidowLines="1">
           <textSettings spacing="single"/>
@@ -1964,17 +1965,20 @@ ORDER BY FEC_INICIO;]]>
           <geometryInfo x="1.25000" y="1.00000" width="4.50000"
            height="0.25000"/>
           <generalLayout verticalElasticity="expand"/>
+          <advancedLayout formatTrigger="solo_pagina1"/>
         </field>
         <field name="F_CF_TC" source="CF_TipCambio" minWidowLines="1"
          spacing="0" alignment="center">
           <font face="Courier New" size="7" italic="yes"/>
           <geometryInfo x="0.00000" y="1.25000" width="11.00000"
            height="0.25000"/>
+          <advancedLayout formatTrigger="solo_pagina1"/>
         </field>
         <text name="B_DirLbl" minWidowLines="1">
           <textSettings spacing="single"/>
           <geometryInfo x="0.25000" y="1.00000" width="0.83337"
            height="0.16663"/>
+          <advancedLayout formatTrigger="solo_pagina1"/>
           <textSegment>
             <font face="Courier New" size="8"/>
             <string>
@@ -1987,11 +1991,13 @@ ORDER BY FEC_INICIO;]]>
           <font face="Courier New" size="8"/>
           <geometryInfo x="6.75000" y="1.00000" width="1.25000"
            height="0.25000"/>
+          <advancedLayout formatTrigger="solo_pagina1"/>
         </field>
         <text name="B_TelLbl" minWidowLines="1">
           <textSettings spacing="single"/>
           <geometryInfo x="6.00000" y="1.00000" width="0.65625"
            height="0.14587"/>
+          <advancedLayout formatTrigger="solo_pagina1"/>
           <textSegment>
             <font face="Courier New" size="8"/>
             <string>
@@ -2004,11 +2010,13 @@ ORDER BY FEC_INICIO;]]>
           <font face="Courier New" size="8"/>
           <geometryInfo x="9.50000" y="1.00000" width="1.25000"
            height="0.25000"/>
+          <advancedLayout formatTrigger="solo_pagina1"/>
         </field>
         <text name="B_IdClienteLbl" minWidowLines="1">
           <textSettings spacing="single"/>
           <geometryInfo x="8.50000" y="1.00000" width="1.00000"
            height="0.16663"/>
+          <advancedLayout formatTrigger="solo_pagina1"/>
           <textSegment>
             <font face="Courier New" size="8"/>
             <string>
@@ -2316,6 +2324,14 @@ end;]]>
       <![CDATA[function CF_TELFormula return Number is
 begin
   return F_Num_Telefono(:p_cod_cliente);
+end;]]>
+      </textSource>
+    </function>
+    <function name="solo_pagina1">
+      <textSource>
+      <![CDATA[function solo_pagina1 return boolean is
+begin
+   return (:PhysicalPageNumber = 1);
 end;]]>
       </textSource>
     </function>
