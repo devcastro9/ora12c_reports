@@ -908,7 +908,7 @@ ORDER BY FEC_INICIO;]]>
           <field name="F_CAEDEC" source="CF_CAEDEC" minWidowLines="1"
            spacing="0" alignment="start">
             <font face="Courier New" size="8" bold="yes"/>
-            <geometryInfo x="2.25000" y="0.75000" width="4.25000"
+            <geometryInfo x="2.25000" y="0.75000" width="3.25000"
              height="0.25000"/>
             <generalLayout verticalElasticity="expand"/>
           </field>
@@ -989,7 +989,7 @@ ORDER BY FEC_INICIO;]]>
               </field>
               <text name="B_L_TramLbl" minWidowLines="1">
                 <textSettings spacing="0"/>
-                <geometryInfo x="7.05005" y="1.45996" width="0.65002"
+                <geometryInfo x="8.05005" y="1.45996" width="0.65002"
                  height="0.12500"/>
                 <textSegment>
                   <font face="Courier New" size="8" bold="yes"/>
@@ -1001,7 +1001,7 @@ ORDER BY FEC_INICIO;]]>
               <field name="F_NUM_TRAMITE_LIN" source="NUM_TRAMITE_LIN"
                minWidowLines="1" spacing="0" alignment="end">
                 <font face="Courier New" size="8"/>
-                <geometryInfo x="7.75000" y="1.45996" width="1.00000"
+                <geometryInfo x="8.75000" y="1.45996" width="1.00000"
                  height="0.12500"/>
               </field>
               <text name="B_L_MonLbl" minWidowLines="1">
@@ -1021,26 +1021,9 @@ ORDER BY FEC_INICIO;]]>
                 <geometryInfo x="0.80005" y="1.59998" width="1.00000"
                  height="0.12500"/>
               </field>
-              <text name="B_L_InsLbl" minWidowLines="1">
-                <textSettings spacing="0"/>
-                <geometryInfo x="1.90002" y="1.59998" width="0.84998"
-                 height="0.12500"/>
-                <textSegment>
-                  <font face="Courier New" size="8" bold="yes"/>
-                  <string>
-                  <![CDATA[Instrumento:]]>
-                  </string>
-                </textSegment>
-              </text>
-              <field name="F_DES_INSTRUMENTO_LIN" source="DES_INSTRUMENTO_LIN"
-               minWidowLines="1" spacing="0" alignment="start">
-                <font face="Courier New" size="8"/>
-                <geometryInfo x="2.80005" y="1.59998" width="2.19995"
-                 height="0.12500"/>
-              </field>
               <text name="B_L_MtoLbl" minWidowLines="1">
                 <textSettings spacing="0"/>
-                <geometryInfo x="5.05005" y="1.59998" width="1.00000"
+                <geometryInfo x="2.05005" y="1.59998" width="1.00000"
                  height="0.12500"/>
                 <textSegment>
                   <font face="Courier New" size="8" bold="yes"/>
@@ -1052,14 +1035,14 @@ ORDER BY FEC_INICIO;]]>
               <field name="F_MONTO_DESEMBOLSADO_LIN"
                source="MONTO_DESEMBOLSADO_LIN" minWidowLines="1"
                formatMask="LNNN,NNN,NNN,NNN,NNN,NN0.00" spacing="0"
-               alignment="end">
+               alignment="start">
                 <font face="Courier New" size="8"/>
-                <geometryInfo x="6.09998" y="1.59998" width="1.59998"
+                <geometryInfo x="3.09998" y="1.59998" width="1.59998"
                  height="0.12500"/>
               </field>
               <text name="B_L_PRevLbl" minWidowLines="1">
                 <textSettings spacing="0"/>
-                <geometryInfo x="7.75000" y="1.59998" width="0.80005"
+                <geometryInfo x="8.00000" y="1.59998" width="0.80005"
                  height="0.12500"/>
                 <textSegment>
                   <font face="Courier New" size="8" bold="yes"/>
@@ -1072,7 +1055,7 @@ ORDER BY FEC_INICIO;]]>
                source="FEC_PROX_REVISION_LIN" minWidowLines="1"
                formatMask="dd/mm/yyyy" spacing="0" alignment="start">
                 <font face="Courier New" size="8"/>
-                <geometryInfo x="8.59998" y="1.59998" width="0.90002"
+                <geometryInfo x="8.84998" y="1.59998" width="0.90002"
                  height="0.12500"/>
               </field>
               <text name="B_L_AptLbl" minWidowLines="1">
@@ -1113,7 +1096,7 @@ ORDER BY FEC_INICIO;]]>
               </field>
               <text name="B_L_SDirLbl" minWidowLines="1">
                 <textSettings spacing="0"/>
-                <geometryInfo x="4.80005" y="1.73999" width="1.19995"
+                <geometryInfo x="4.80005" y="1.48999" width="1.19995"
                  height="0.12500"/>
                 <textSegment>
                   <font face="Courier New" size="8" bold="yes"/>
@@ -1124,14 +1107,14 @@ ORDER BY FEC_INICIO;]]>
               </text>
               <field name="F_SALDO_DIRECTO_LIN" source="SALDO_DIRECTO_LIN"
                minWidowLines="1" formatMask="LNNN,NNN,NNN,NNN,NNN,NN0.00"
-               spacing="0" alignment="end">
+               spacing="0" alignment="start">
                 <font face="Courier New" size="8"/>
-                <geometryInfo x="6.09998" y="1.73999" width="1.59998"
+                <geometryInfo x="6.09998" y="1.48999" width="1.59998"
                  height="0.12500"/>
               </field>
               <text name="B_L_SConLbl" minWidowLines="1">
                 <textSettings spacing="0"/>
-                <geometryInfo x="7.75000" y="1.73999" width="1.09998"
+                <geometryInfo x="5.00000" y="1.73999" width="1.09998"
                  height="0.12500"/>
                 <textSegment>
                   <font face="Courier New" size="8" bold="yes"/>
@@ -1143,9 +1126,9 @@ ORDER BY FEC_INICIO;]]>
               <field name="F_SALDO_CONTINGENTE_LIN"
                source="SALDO_CONTINGENTE_LIN" minWidowLines="1"
                formatMask="LNNN,NNN,NNN,NNN,NNN,NN0.00" spacing="0"
-               alignment="end">
+               alignment="start">
                 <font face="Courier New" size="8"/>
-                <geometryInfo x="8.90002" y="1.73999" width="1.59998"
+                <geometryInfo x="6.15002" y="1.73999" width="1.59998"
                  height="0.12500"/>
               </field>
               <frame name="M_G_OP_BL_HDR">
@@ -1379,7 +1362,7 @@ ORDER BY FEC_INICIO;]]>
               </repeatingFrame>
               <text name="B_TramModLbl" minWidowLines="1">
                 <textSettings spacing="0"/>
-                <geometryInfo x="9.00000" y="1.45996" width="1.00000"
+                <geometryInfo x="8.00000" y="1.70996" width="1.00000"
                  height="0.12500"/>
                 <textSegment>
                   <font face="Courier New" size="8" bold="yes"/>
@@ -1391,7 +1374,7 @@ ORDER BY FEC_INICIO;]]>
               <field name="F_TRAM_MOD" source="NUM_TRAM_MOD_LIN"
                minWidowLines="1" spacing="0" alignment="start">
                 <font face="Courier New" size="8"/>
-                <geometryInfo x="10.00000" y="1.45996" width="0.75000"
+                <geometryInfo x="9.00000" y="1.70996" width="0.75000"
                  height="0.12500"/>
               </field>
             </repeatingFrame>
@@ -1973,7 +1956,7 @@ ORDER BY FEC_INICIO;]]>
            formatMask="LNNN,NNN,NNN,NNN,NNN,NN0.00" spacing="0"
            alignment="end">
             <font face="Courier New" size="8" bold="yes"/>
-            <geometryInfo x="7.25000" y="0.75000" width="1.25000"
+            <geometryInfo x="6.75000" y="0.75000" width="1.25000"
              height="0.25000"/>
           </field>
           <field name="F_PREV_CONT" source="CF_PREV_CONT" minWidowLines="1"
@@ -1985,23 +1968,23 @@ ORDER BY FEC_INICIO;]]>
           </field>
           <text name="B_PrevDirLbl" minWidowLines="1">
             <textSettings spacing="0"/>
-            <geometryInfo x="6.75000" y="0.75000" width="0.75000"
+            <geometryInfo x="5.75000" y="0.75000" width="1.00000"
              height="0.25000"/>
             <textSegment>
               <font face="Courier New" size="8" bold="yes"/>
               <string>
-              <![CDATA[Prev Dir]]>
+              <![CDATA[Prev. Directa]]>
               </string>
             </textSegment>
           </text>
           <text name="B_PrevContLbl" minWidowLines="1">
             <textSettings spacing="0"/>
-            <geometryInfo x="8.75000" y="0.75000" width="0.71875"
+            <geometryInfo x="8.25000" y="0.75000" width="1.21875"
              height="0.25000"/>
             <textSegment>
               <font face="Courier New" size="8" bold="yes"/>
               <string>
-              <![CDATA[Prev Cont]]>
+              <![CDATA[Prev. Contingente]]>
               </string>
             </textSegment>
           </text>
