@@ -1290,19 +1290,19 @@ ORDER BY FEC_INICIO;]]>
               </frame>
               <repeatingFrame name="R_G_OP_BL" source="G_OPERACIONES_BL"
                printDirection="down" minWidowRecords="1" columnMode="no">
-                <geometryInfo x="0.25000" y="2.00000" width="10.59998"
+                <geometryInfo x="0.10000" y="2.00000" width="10.75000"
                  height="0.09998"/>
                 <generalLayout verticalElasticity="expand"/>
                 <field name="F_NO_OPERACION_BL" source="NO_OPERACION_BL"
                  minWidowLines="1" spacing="0" alignment="start">
                   <font face="Courier New" size="7"/>
-                  <geometryInfo x="0.44995" y="2.00000" width="0.84998"
+                  <geometryInfo x="0.15000" y="2.00000" width="0.80000"
                    height="0.09998"/>
                 </field>
                 <field name="F_NUM_TRAMITE_BL" source="NUM_TRAMITE_BL"
                  minWidowLines="1" spacing="0" alignment="start">
                   <font face="Courier New" size="7"/>
-                  <geometryInfo x="1.09998" y="2.00000" width="0.59998"
+                  <geometryInfo x="1.00000" y="2.00000" width="0.59998"
                    height="0.09998"/>
                 </field>
                 <field name="F_FEC_INICIO_BL" source="FEC_INICIO_BL"
