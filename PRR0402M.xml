@@ -784,12 +784,12 @@ ORDER BY FEC_INICIO;]]>
         <geometryInfo x="0.00000" y="0.00000" width="11.00000"
          height="0.50000"/>
         <generalLayout verticalElasticity="variable"/>
-        <visualSettings fillBackgroundColor="r88g92b98"/>
+        <visualSettings fillBackgroundColor="black"/>
         <text name="B_1" minWidowLines="1">
           <textSettings spacing="single"/>
           <geometryInfo x="0.25000" y="0.00000" width="0.66663"
            height="0.13330"/>
-          <visualSettings fillBackgroundColor="r88g92b98"/>
+          <visualSettings fillBackgroundColor="black"/>
           <textSegment>
             <font face="Courier New" size="8"/>
             <string>
@@ -801,7 +801,7 @@ ORDER BY FEC_INICIO;]]>
           <textSettings spacing="single"/>
           <geometryInfo x="6.00000" y="0.00000" width="0.59998"
            height="0.13330"/>
-          <visualSettings fillBackgroundColor="r88g92b98"/>
+          <visualSettings fillBackgroundColor="black"/>
           <textSegment>
             <font face="Courier New" size="8"/>
             <string>
@@ -813,7 +813,7 @@ ORDER BY FEC_INICIO;]]>
           <textSettings spacing="single"/>
           <geometryInfo x="8.25000" y="0.00000" width="1.00000"
            height="0.25000"/>
-          <visualSettings fillBackgroundColor="r88g92b98"/>
+          <visualSettings fillBackgroundColor="black"/>
           <textSegment>
             <font face="Courier New" size="8"/>
             <string>
@@ -827,48 +827,48 @@ ORDER BY FEC_INICIO;]]>
           <geometryInfo x="1.00000" y="0.00000" width="4.75000"
            height="0.25000"/>
           <generalLayout verticalElasticity="expand"/>
-          <visualSettings fillBackgroundColor="r88g92b98"/>
+          <visualSettings fillBackgroundColor="black"/>
         </field>
         <field name="F_CF_TIPOCAMBIO" source="CF_TipoCambio" minWidowLines="1"
          spacing="single" alignment="center">
           <font face="Courier New" size="7" italic="yes"/>
           <geometryInfo x="0.00000" y="0.25000" width="11.00000"
            height="0.25000"/>
-          <visualSettings fillBackgroundColor="r88g92b98"/>
+          <visualSettings fillBackgroundColor="black"/>
         </field>
         <field name="F_CF_TEL" source="CF_TEL" minWidowLines="1"
          spacing="single" alignment="start">
           <font face="Courier New" size="8"/>
           <geometryInfo x="6.75000" y="0.00000" width="1.25000"
            height="0.25000"/>
-          <visualSettings fillBackgroundColor="r88g92b98"/>
+          <visualSettings fillBackgroundColor="black"/>
         </field>
         <field name="F_CF_IDCLI" source="CF_NUM_ID" minWidowLines="1"
          spacing="single" alignment="start">
           <font face="Courier New" size="8"/>
           <geometryInfo x="9.25000" y="0.00000" width="1.50000"
            height="0.25000"/>
-          <visualSettings fillBackgroundColor="r88g92b98"/>
+          <visualSettings fillBackgroundColor="black"/>
         </field>
       </frame>
       <frame name="M_G_EMPRESA_GRPFR">
         <geometryInfo x="0.00000" y="0.50000" width="11.00000"
          height="4.50000"/>
         <generalLayout verticalElasticity="variable"/>
-        <visualSettings fillBackgroundColor="r92g95b100"/>
+        <visualSettings fillBackgroundColor="black"/>
         <repeatingFrame name="R_G_EMPRESA" source="G_EMPRESA"
          printDirection="down" minWidowRecords="1" columnMode="no">
           <geometryInfo x="0.00000" y="0.50000" width="10.92188"
            height="4.50000"/>
           <generalLayout verticalElasticity="variable"/>
-          <visualSettings fillBackgroundColor="r95g97b100"/>
+          <visualSettings fillBackgroundColor="black"/>
           <text name="B_EmpresaLbl" minWidowLines="1">
             <textSettings spacing="0"/>
             <geometryInfo x="0.05005" y="0.50000" width="0.90002"
              height="0.14587"/>
             <textSegment>
               <font face="Courier New" size="10" bold="yes"
-               textColor="r10g20b45"/>
+               textColor="darkblue"/>
               <string>
               <![CDATA[Empresa :]]>
               </string>
@@ -876,14 +876,14 @@ ORDER BY FEC_INICIO;]]>
           </text>
           <field name="F_cod_empresa" source="cod_empresa" minWidowLines="1"
            spacing="0" alignment="start">
-            <font face="Courier New" size="10" bold="yes" textColor="r10g20b45"
+            <font face="Courier New" size="10" bold="yes" textColor="darkblue"
             />
             <geometryInfo x="0.94995" y="0.50000" width="0.50000"
              height="0.14587"/>
           </field>
           <field name="F_TIT_REPORTES" source="TIT_REPORTES" minWidowLines="1"
            spacing="0" alignment="start">
-            <font face="Courier New" size="10" bold="yes" textColor="r10g20b45"
+            <font face="Courier New" size="10" bold="yes" textColor="darkblue"
             />
             <geometryInfo x="1.50000" y="0.50000" width="6.00000"
              height="0.14587"/>
@@ -917,15 +917,13 @@ ORDER BY FEC_INICIO;]]>
              height="1.29126"/>
             <generalLayout verticalElasticity="variable"/>
             <advancedLayout formatTrigger="m_lineas_wrapformattrigger"/>
-            <visualSettings fillPattern="transparent"
-             lineForegroundColor="r15g25b50"/>
+            <visualSettings fillPattern="transparent"/>
             <text name="B_LineasTitle" minWidowLines="1">
               <textSettings spacing="0"/>
               <geometryInfo x="0.05005" y="1.20996" width="3.00000"
                height="0.14587"/>
               <textSegment>
-                <font face="Courier New" size="10" bold="yes"
-                 textColor="r15g25b50"/>
+                <font face="Courier New" size="10" bold="yes"/>
                 <string>
                 <![CDATA[LINEAS DE CREDITO]]>
                 </string>
@@ -1153,11 +1151,11 @@ ORDER BY FEC_INICIO;]]>
                  height="0.09998"/>
                 <advancedLayout printObjectOnPage="allPage"
                  basePrintingOn="enclosingObject"/>
-                <visualSettings fillBackgroundColor="r80g85b95"
+                <visualSettings fillBackgroundColor="black"
                  lineForegroundColor="darkgray"/>
                 <text name="B_H_BL_Op" minWidowLines="1">
                   <textSettings spacing="0"/>
-                  <geometryInfo x="0.20000" y="1.90002" width="0.85000"
+                  <geometryInfo x="0.19995" y="1.90002" width="0.84998"
                    height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
@@ -1168,7 +1166,7 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_Tram" minWidowLines="1">
                   <textSettings spacing="0"/>
-                  <geometryInfo x="1.10000" y="1.90002" width="0.60000"
+                  <geometryInfo x="1.09998" y="1.90002" width="0.59998"
                    height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
@@ -1179,7 +1177,7 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_Ini" minWidowLines="1">
                   <textSettings spacing="0"/>
-                  <geometryInfo x="1.75000" y="1.90002" width="0.65000"
+                  <geometryInfo x="1.75000" y="1.90002" width="0.65002"
                    height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
@@ -1190,7 +1188,7 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_Ven" minWidowLines="1">
                   <textSettings spacing="0"/>
-                  <geometryInfo x="2.45000" y="1.90002" width="0.65000"
+                  <geometryInfo x="2.44995" y="1.90002" width="0.65002"
                    height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
@@ -1201,7 +1199,7 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_Mon" minWidowLines="1">
                   <textSettings spacing="0"/>
-                  <geometryInfo x="3.15000" y="1.90002" width="0.55000"
+                  <geometryInfo x="3.15002" y="1.90002" width="0.55005"
                    height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
@@ -1212,7 +1210,7 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_Est" minWidowLines="1">
                   <textSettings spacing="0"/>
-                  <geometryInfo x="3.75000" y="1.90002" width="0.65000"
+                  <geometryInfo x="3.75000" y="1.90002" width="0.65002"
                    height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
@@ -1223,7 +1221,7 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_Ins" minWidowLines="1">
                   <textSettings spacing="0"/>
-                  <geometryInfo x="4.45000" y="1.90002" width="1.00000"
+                  <geometryInfo x="4.44995" y="1.90002" width="1.00000"
                    height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
@@ -1245,7 +1243,7 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_Mto" minWidowLines="1">
                   <textSettings justify="end" spacing="0"/>
-                  <geometryInfo x="6.55000" y="1.90002" width="1.05000"
+                  <geometryInfo x="6.55005" y="1.90002" width="1.05005"
                    height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
@@ -1256,7 +1254,7 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_FPC" minWidowLines="1">
                   <textSettings spacing="0"/>
-                  <geometryInfo x="7.65000" y="1.90002" width="0.65000"
+                  <geometryInfo x="7.65002" y="1.90002" width="0.65002"
                    height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
@@ -1267,7 +1265,7 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_SDir" minWidowLines="1">
                   <textSettings justify="end" spacing="0"/>
-                  <geometryInfo x="8.35000" y="1.90002" width="1.10000"
+                  <geometryInfo x="8.34998" y="1.90002" width="1.09998"
                    height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
@@ -1278,7 +1276,7 @@ ORDER BY FEC_INICIO;]]>
                 </text>
                 <text name="B_H_BL_SCon" minWidowLines="1">
                   <textSettings justify="end" spacing="0"/>
-                  <geometryInfo x="9.50000" y="1.90002" width="1.10000"
+                  <geometryInfo x="9.50000" y="1.90002" width="1.09998"
                    height="0.09998"/>
                   <textSegment>
                     <font face="Courier New" size="6" bold="yes"/>
@@ -1296,45 +1294,45 @@ ORDER BY FEC_INICIO;]]>
                 <field name="F_NO_OPERACION_BL" source="NO_OPERACION_BL"
                  minWidowLines="1" spacing="0" alignment="start">
                   <font face="Courier New" size="7"/>
-                  <geometryInfo x="0.20000" y="2.00000" width="0.85000"
+                  <geometryInfo x="0.44995" y="2.00000" width="0.84998"
                    height="0.09998"/>
                 </field>
                 <field name="F_NUM_TRAMITE_BL" source="NUM_TRAMITE_BL"
                  minWidowLines="1" spacing="0" alignment="start">
                   <font face="Courier New" size="7"/>
-                  <geometryInfo x="1.10000" y="2.00000" width="0.60000"
+                  <geometryInfo x="1.09998" y="2.00000" width="0.59998"
                    height="0.09998"/>
                 </field>
                 <field name="F_FEC_INICIO_BL" source="FEC_INICIO_BL"
                  minWidowLines="1" formatMask="dd/mm/yyyy" spacing="0"
                  alignment="start">
                   <font face="Courier New" size="7"/>
-                  <geometryInfo x="1.75000" y="2.00000" width="0.65000"
+                  <geometryInfo x="1.75000" y="2.00000" width="0.65002"
                    height="0.09998"/>
                 </field>
                 <field name="F_FEC_VENCIMIENTO_BL" source="FEC_VENCIMIENTO_BL"
                  minWidowLines="1" formatMask="dd/mm/yyyy" spacing="0"
                  alignment="start">
                   <font face="Courier New" size="7"/>
-                  <geometryInfo x="2.45000" y="2.00000" width="0.65000"
+                  <geometryInfo x="2.44995" y="2.00000" width="0.65002"
                    height="0.09998"/>
                 </field>
                 <field name="F_DES_MONEDA_BL" source="DES_MONEDA_BL"
                  minWidowLines="1" spacing="0" alignment="start">
                   <font face="Courier New" size="7"/>
-                  <geometryInfo x="3.15000" y="2.00000" width="0.55000"
+                  <geometryInfo x="3.15002" y="2.00000" width="0.55005"
                    height="0.09998"/>
                 </field>
                 <field name="F_DES_ESTADO_BL" source="DES_ESTADO_BL"
                  minWidowLines="1" spacing="0" alignment="start">
                   <font face="Courier New" size="7"/>
-                  <geometryInfo x="3.75000" y="2.00000" width="0.65000"
+                  <geometryInfo x="3.75000" y="2.00000" width="0.65002"
                    height="0.09998"/>
                 </field>
                 <field name="F_DES_INSTRUMENTO_BL" source="DES_INSTRUMENTO_BL"
                  minWidowLines="1" spacing="0" alignment="start">
                   <font face="Courier New" size="7"/>
-                  <geometryInfo x="4.45000" y="2.00000" width="1.00000"
+                  <geometryInfo x="4.44995" y="2.00000" width="1.00000"
                    height="0.09998"/>
                   <generalLayout verticalElasticity="expand"/>
                 </field>
@@ -1349,28 +1347,28 @@ ORDER BY FEC_INICIO;]]>
                  source="MONTO_DESEMBOLSADO_BL" minWidowLines="1"
                  formatMask="NNN,NNN,NNN,NN0.00" spacing="0" alignment="end">
                   <font face="Courier New" size="7"/>
-                  <geometryInfo x="6.55000" y="2.00000" width="1.05000"
+                  <geometryInfo x="6.55005" y="2.00000" width="1.05005"
                    height="0.09998"/>
                 </field>
                 <field name="F_FEC_VTO_PROX_CUOTA_BL"
                  source="FEC_VTO_PROX_CUOTA_BL" minWidowLines="1"
                  formatMask="dd/mm/yyyy" spacing="0" alignment="start">
                   <font face="Courier New" size="7"/>
-                  <geometryInfo x="7.65000" y="2.00000" width="0.65000"
+                  <geometryInfo x="7.65002" y="2.00000" width="0.65002"
                    height="0.09998"/>
                 </field>
                 <field name="F_SALDO_DIRECTO_BL" source="SALDO_DIRECTO_BL"
                  minWidowLines="1" formatMask="NNN,NNN,NNN,NN0.00" spacing="0"
                  alignment="end">
                   <font face="Courier New" size="7"/>
-                  <geometryInfo x="8.35000" y="2.00000" width="1.10000"
+                  <geometryInfo x="8.34998" y="2.00000" width="1.09998"
                    height="0.09998"/>
                 </field>
                 <field name="F_SALDO_CONTINGENTE_BL"
                  source="SALDO_CONTINGENTE_BL" minWidowLines="1"
                  formatMask="NNN,NNN,NNN,NN0.00" spacing="0" alignment="end">
                   <font face="Courier New" size="7"/>
-                  <geometryInfo x="9.50000" y="2.00000" width="1.10000"
+                  <geometryInfo x="9.50000" y="2.00000" width="1.09998"
                    height="0.09998"/>
                 </field>
               </repeatingFrame>
@@ -1407,14 +1405,14 @@ ORDER BY FEC_INICIO;]]>
              minWidowLines="1" formatMask="NNN,NNN,NNN,NN0.00" spacing="0"
              alignment="end">
               <font face="Courier New" size="8" bold="yes"/>
-              <geometryInfo x="8.35000" y="2.34998" width="1.10000"
+              <geometryInfo x="8.34998" y="2.34998" width="1.09998"
                height="0.14587"/>
             </field>
             <field name="F_CS_TOT_CONT_BL" source="CS_TOT_CONT_BL"
              minWidowLines="1" formatMask="NNN,NNN,NNN,NN0.00" spacing="0"
              alignment="end">
               <font face="Courier New" size="8" bold="yes"/>
-              <geometryInfo x="9.50000" y="2.34998" width="1.10000"
+              <geometryInfo x="9.50000" y="2.34998" width="1.09998"
                height="0.14587"/>
             </field>
           </frame>
@@ -1423,15 +1421,13 @@ ORDER BY FEC_INICIO;]]>
              height="0.90002"/>
             <generalLayout verticalElasticity="variable"/>
             <advancedLayout formatTrigger="m_fl_wrapformattrigger"/>
-            <visualSettings fillPattern="transparent"
-             lineForegroundColor="r15g25b50"/>
+            <visualSettings fillPattern="transparent"/>
             <text name="B_FLTitle" minWidowLines="1">
               <textSettings spacing="0"/>
               <geometryInfo x="0.05005" y="2.59998" width="3.00000"
                height="0.14587"/>
               <textSegment>
-                <font face="Courier New" size="10" bold="yes"
-                 textColor="r15g25b50"/>
+                <font face="Courier New" size="10" bold="yes"/>
                 <string>
                 <![CDATA[OPERACIONES FUERA DE LINEA]]>
                 </string>
@@ -1445,45 +1441,45 @@ ORDER BY FEC_INICIO;]]>
               <field name="F_NO_OPERACION_FL" source="NO_OPERACION_FL"
                minWidowLines="1" spacing="0" alignment="start">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="0.20000" y="3.05005" width="0.85000"
+                <geometryInfo x="0.19995" y="3.05005" width="0.84998"
                  height="0.12500"/>
               </field>
               <field name="F_NUM_TRAMITE_FL" source="NUM_TRAMITE_FL"
                minWidowLines="1" spacing="0" alignment="start">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="1.10000" y="3.05005" width="0.60000"
+                <geometryInfo x="1.09998" y="3.05005" width="0.59998"
                  height="0.12500"/>
               </field>
               <field name="F_FEC_INICIO_FL" source="FEC_INICIO_FL"
                minWidowLines="1" formatMask="dd/mm/yyyy" spacing="0"
                alignment="start">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="1.75000" y="3.05005" width="0.65000"
+                <geometryInfo x="1.75000" y="3.05005" width="0.65002"
                  height="0.12500"/>
               </field>
               <field name="F_FEC_VENCIMIENTO_FL" source="FEC_VENCIMIENTO_FL"
                minWidowLines="1" formatMask="dd/mm/yyyy" spacing="0"
                alignment="start">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="2.45000" y="3.05005" width="0.65000"
+                <geometryInfo x="2.44995" y="3.05005" width="0.65002"
                  height="0.12500"/>
               </field>
               <field name="F_DES_MONEDA_FL" source="DES_MONEDA_FL"
                minWidowLines="1" spacing="0" alignment="start">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="3.15000" y="3.05005" width="0.55000"
+                <geometryInfo x="3.15002" y="3.05005" width="0.55005"
                  height="0.12500"/>
               </field>
               <field name="F_DES_ESTADO_FL" source="DES_ESTADO_FL"
                minWidowLines="1" spacing="0" alignment="start">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="3.75000" y="3.05005" width="0.65000"
+                <geometryInfo x="3.75000" y="3.05005" width="0.65002"
                  height="0.12500"/>
               </field>
               <field name="F_DES_INSTRUMENTO_FL" source="DES_INSTRUMENTO_FL"
                minWidowLines="1" spacing="0" alignment="start">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="4.45000" y="3.05005" width="1.00000"
+                <geometryInfo x="4.44995" y="3.05005" width="1.00000"
                  height="0.12500"/>
                 <generalLayout verticalElasticity="expand"/>
               </field>
@@ -1498,28 +1494,28 @@ ORDER BY FEC_INICIO;]]>
                source="MONTO_DESEMBOLSADO_FL" minWidowLines="1"
                formatMask="NNN,NNN,NNN,NN0.00" spacing="0" alignment="end">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="6.55000" y="3.05005" width="1.05000"
+                <geometryInfo x="6.55005" y="3.05005" width="1.05005"
                  height="0.12500"/>
               </field>
               <field name="F_FEC_VTO_PROX_CUOTA_FL"
                source="FEC_VTO_PROX_CUOTA_FL" minWidowLines="1"
                formatMask="dd/mm/yyyy" spacing="0" alignment="start">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="7.65000" y="3.05005" width="0.65000"
+                <geometryInfo x="7.65002" y="3.05005" width="0.65002"
                  height="0.12500"/>
               </field>
               <field name="F_SALDO_DIRECTO_FL" source="SALDO_DIRECTO_FL"
                minWidowLines="1" formatMask="NNN,NNN,NNN,NN0.00" spacing="0"
                alignment="end">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="8.35000" y="3.05005" width="1.10000"
+                <geometryInfo x="8.34998" y="3.05005" width="1.09998"
                  height="0.12500"/>
               </field>
               <field name="F_SALDO_CONTINGENTE_FL"
                source="SALDO_CONTINGENTE_FL" minWidowLines="1"
                formatMask="NNN,NNN,NNN,NN0.00" spacing="0" alignment="end">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="9.50000" y="3.05005" width="1.10000"
+                <geometryInfo x="9.50000" y="3.05005" width="1.09998"
                  height="0.12500"/>
               </field>
             </repeatingFrame>
@@ -1538,21 +1534,21 @@ ORDER BY FEC_INICIO;]]>
              minWidowLines="1" formatMask="NNN,NNN,NNN,NN0.00" spacing="0"
              alignment="end">
               <font face="Courier New" size="8" bold="yes"/>
-              <geometryInfo x="8.35000" y="3.30005" width="1.10000"
+              <geometryInfo x="8.34998" y="3.30005" width="1.09998"
                height="0.14587"/>
             </field>
             <field name="F_CS_TOT_CONT_FL" source="CS_TOT_CONT_FL"
              minWidowLines="1" formatMask="NNN,NNN,NNN,NN0.00" spacing="0"
              alignment="end">
               <font face="Courier New" size="8" bold="yes"/>
-              <geometryInfo x="9.50000" y="3.30005" width="1.10000"
+              <geometryInfo x="9.50000" y="3.30005" width="1.09998"
                height="0.14587"/>
             </field>
             <text name="B_H_FL_Op" minWidowLines="1">
               <textSettings spacing="0"/>
-              <geometryInfo x="0.20000" y="2.95496" width="0.85000"
+              <geometryInfo x="0.19995" y="2.95496" width="0.84998"
                height="0.09998"/>
-              <visualSettings fillBackgroundColor="r80g85b95"/>
+              <visualSettings fillBackgroundColor="black"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
                 <string>
@@ -1562,7 +1558,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_FL_Tram" minWidowLines="1">
               <textSettings spacing="0"/>
-              <geometryInfo x="1.10000" y="2.95496" width="0.60000"
+              <geometryInfo x="1.09998" y="2.95496" width="0.59998"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -1573,7 +1569,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_FL_Ini" minWidowLines="1">
               <textSettings spacing="0"/>
-              <geometryInfo x="1.75000" y="2.95496" width="0.65000"
+              <geometryInfo x="1.75000" y="2.95496" width="0.65002"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -1584,7 +1580,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_FL_Ven" minWidowLines="1">
               <textSettings spacing="0"/>
-              <geometryInfo x="2.45000" y="2.95496" width="0.65000"
+              <geometryInfo x="2.44995" y="2.95496" width="0.65002"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -1595,7 +1591,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_FL_Mon" minWidowLines="1">
               <textSettings spacing="0"/>
-              <geometryInfo x="3.15000" y="2.95496" width="0.55000"
+              <geometryInfo x="3.15002" y="2.95496" width="0.55005"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -1606,7 +1602,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_FL_Est" minWidowLines="1">
               <textSettings spacing="0"/>
-              <geometryInfo x="3.75000" y="2.95496" width="0.65000"
+              <geometryInfo x="3.75000" y="2.95496" width="0.65002"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -1617,7 +1613,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_FL_Ins" minWidowLines="1">
               <textSettings spacing="0"/>
-              <geometryInfo x="4.45000" y="2.95496" width="1.00000"
+              <geometryInfo x="4.44995" y="2.95496" width="1.00000"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -1639,7 +1635,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_FL_Mto" minWidowLines="1">
               <textSettings justify="end" spacing="0"/>
-              <geometryInfo x="6.55000" y="2.95496" width="1.05000"
+              <geometryInfo x="6.55005" y="2.95496" width="1.05005"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -1650,7 +1646,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_FL_FPC" minWidowLines="1">
               <textSettings spacing="0"/>
-              <geometryInfo x="7.65000" y="2.95496" width="0.65000"
+              <geometryInfo x="7.65002" y="2.95496" width="0.65002"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -1661,7 +1657,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_FL_SDir" minWidowLines="1">
               <textSettings justify="end" spacing="0"/>
-              <geometryInfo x="8.35000" y="2.95496" width="1.10000"
+              <geometryInfo x="8.34998" y="2.95496" width="1.09998"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -1672,7 +1668,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_FL_SCon" minWidowLines="1">
               <textSettings justify="end" spacing="0"/>
-              <geometryInfo x="9.50000" y="2.95496" width="1.10000"
+              <geometryInfo x="9.50000" y="2.95496" width="1.09998"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -1687,15 +1683,13 @@ ORDER BY FEC_INICIO;]]>
              height="0.96997"/>
             <generalLayout verticalElasticity="variable"/>
             <advancedLayout formatTrigger="m_ind_wrapformattrigger"/>
-            <visualSettings fillPattern="transparent"
-             lineForegroundColor="r15g25b50"/>
+            <visualSettings fillPattern="transparent"/>
             <text name="B_INDTitle" minWidowLines="1">
               <textSettings spacing="0"/>
               <geometryInfo x="0.05005" y="3.55005" width="3.80005"
                height="0.14587"/>
               <textSegment>
-                <font face="Courier New" size="10" bold="yes"
-                 textColor="r15g25b50"/>
+                <font face="Courier New" size="10" bold="yes"/>
                 <string>
                 <![CDATA[OPERACIONES INDIRECTAS]]>
                 </string>
@@ -1709,45 +1703,45 @@ ORDER BY FEC_INICIO;]]>
               <field name="F_NO_OPERACION_IND" source="NO_OPERACION_IND"
                minWidowLines="1" spacing="0" alignment="start">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="0.20000" y="4.00000" width="0.85000"
+                <geometryInfo x="0.19995" y="4.00000" width="0.84998"
                  height="0.12500"/>
               </field>
               <field name="F_NUM_TRAMITE_IND" source="NUM_TRAMITE_IND"
                minWidowLines="1" spacing="0" alignment="start">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="1.10000" y="4.00000" width="0.60000"
+                <geometryInfo x="1.09998" y="4.00000" width="0.59998"
                  height="0.12500"/>
               </field>
               <field name="F_FEC_INICIO_IND" source="FEC_INICIO_IND"
                minWidowLines="1" formatMask="dd/mm/yyyy" spacing="0"
                alignment="start">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="1.75000" y="4.00000" width="0.65000"
+                <geometryInfo x="1.75000" y="4.00000" width="0.65002"
                  height="0.12500"/>
               </field>
               <field name="F_FEC_VENCIMIENTO_IND" source="FEC_VENCIMIENTO_IND"
                minWidowLines="1" formatMask="dd/mm/yyyy" spacing="0"
                alignment="start">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="2.45000" y="4.00000" width="0.65000"
+                <geometryInfo x="2.44995" y="4.00000" width="0.65002"
                  height="0.12500"/>
               </field>
               <field name="F_DES_MONEDA_IND" source="DES_MONEDA_IND"
                minWidowLines="1" spacing="0" alignment="start">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="3.15000" y="4.00000" width="0.55000"
+                <geometryInfo x="3.15002" y="4.00000" width="0.55005"
                  height="0.12500"/>
               </field>
               <field name="F_DES_ESTADO_IND" source="DES_ESTADO_IND"
                minWidowLines="1" spacing="0" alignment="start">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="3.75000" y="4.00000" width="0.65000"
+                <geometryInfo x="3.75000" y="4.00000" width="0.65002"
                  height="0.12500"/>
               </field>
               <field name="F_NOM_CLIENTE_IND" source="NOM_CLIENTE_IND"
                minWidowLines="1" spacing="0" alignment="start">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="4.45000" y="4.00000" width="1.00000"
+                <geometryInfo x="4.44995" y="4.00000" width="1.00000"
                  height="0.12500"/>
                 <generalLayout verticalElasticity="expand"/>
               </field>
@@ -1762,21 +1756,21 @@ ORDER BY FEC_INICIO;]]>
                source="MONTO_DESEMBOLSADO_IND" minWidowLines="1"
                formatMask="NNN,NNN,NNN,NN0.00" spacing="0" alignment="end">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="6.55000" y="4.00000" width="1.70000"
+                <geometryInfo x="6.55005" y="4.00000" width="1.69995"
                  height="0.12500"/>
               </field>
               <field name="F_SALDO_DIRECTO_IND" source="SALDO_DIRECTO_IND"
                minWidowLines="1" formatMask="NNN,NNN,NNN,NN0.00" spacing="0"
                alignment="end">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="8.35000" y="4.00000" width="1.10000"
+                <geometryInfo x="8.34998" y="4.00000" width="1.09998"
                  height="0.12500"/>
               </field>
               <field name="F_SALDO_CONTINGENTE_IND"
                source="SALDO_CONTINGENTE_IND" minWidowLines="1"
                formatMask="NNN,NNN,NNN,NN0.00" spacing="0" alignment="end">
                 <font face="Courier New" size="7"/>
-                <geometryInfo x="9.50000" y="4.00000" width="1.10000"
+                <geometryInfo x="9.50000" y="4.00000" width="1.09998"
                  height="0.12500"/>
               </field>
             </repeatingFrame>
@@ -1795,21 +1789,21 @@ ORDER BY FEC_INICIO;]]>
              minWidowLines="1" formatMask="NNN,NNN,NNN,NN0.00" spacing="0"
              alignment="end">
               <font face="Courier New" size="8" bold="yes"/>
-              <geometryInfo x="8.35000" y="4.25000" width="1.10000"
+              <geometryInfo x="8.34998" y="4.25000" width="1.09998"
                height="0.14587"/>
             </field>
             <field name="F_CS_SAL_CONT_IND" source="CS_SAL_CONT_IND"
              minWidowLines="1" formatMask="NNN,NNN,NNN,NN0.00" spacing="0"
              alignment="end">
               <font face="Courier New" size="8" bold="yes"/>
-              <geometryInfo x="9.50000" y="4.25000" width="1.10000"
+              <geometryInfo x="9.50000" y="4.25000" width="1.09998"
                height="0.14587"/>
             </field>
             <text name="B_H_IND_Op" minWidowLines="1">
               <textSettings spacing="0"/>
-              <geometryInfo x="0.20000" y="3.90503" width="0.85000"
+              <geometryInfo x="0.19995" y="3.90503" width="0.84998"
                height="0.09998"/>
-              <visualSettings fillBackgroundColor="r80g85b95"/>
+              <visualSettings fillBackgroundColor="black"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
                 <string>
@@ -1819,7 +1813,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_IND_Tram" minWidowLines="1">
               <textSettings spacing="0"/>
-              <geometryInfo x="1.10000" y="3.90503" width="0.60000"
+              <geometryInfo x="1.09998" y="3.90503" width="0.59998"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -1830,7 +1824,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_IND_Ini" minWidowLines="1">
               <textSettings spacing="0"/>
-              <geometryInfo x="1.75000" y="3.90503" width="0.65000"
+              <geometryInfo x="1.75000" y="3.90503" width="0.65002"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -1841,7 +1835,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_IND_Ven" minWidowLines="1">
               <textSettings spacing="0"/>
-              <geometryInfo x="2.45000" y="3.90503" width="0.65000"
+              <geometryInfo x="2.44995" y="3.90503" width="0.65002"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -1852,7 +1846,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_IND_Mon" minWidowLines="1">
               <textSettings spacing="0"/>
-              <geometryInfo x="3.15000" y="3.90503" width="0.55000"
+              <geometryInfo x="3.15002" y="3.90503" width="0.55005"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -1863,7 +1857,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_IND_Est" minWidowLines="1">
               <textSettings spacing="0"/>
-              <geometryInfo x="3.75000" y="3.90503" width="0.65000"
+              <geometryInfo x="3.75000" y="3.90503" width="0.65002"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -1874,7 +1868,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_IND_Nom" minWidowLines="1">
               <textSettings spacing="0"/>
-              <geometryInfo x="4.45000" y="3.90503" width="1.00000"
+              <geometryInfo x="4.44995" y="3.90503" width="1.00000"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -1896,7 +1890,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_IND_Mto" minWidowLines="1">
               <textSettings justify="end" spacing="0"/>
-              <geometryInfo x="6.55000" y="3.90503" width="1.70000"
+              <geometryInfo x="6.55005" y="3.90503" width="1.69995"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -1907,7 +1901,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_IND_SDir" minWidowLines="1">
               <textSettings justify="end" spacing="0"/>
-              <geometryInfo x="8.35000" y="3.90503" width="1.10000"
+              <geometryInfo x="8.34998" y="3.90503" width="1.09998"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -1918,7 +1912,7 @@ ORDER BY FEC_INICIO;]]>
             </text>
             <text name="B_H_IND_SCon" minWidowLines="1">
               <textSettings justify="end" spacing="0"/>
-              <geometryInfo x="9.50000" y="3.90503" width="1.10000"
+              <geometryInfo x="9.50000" y="3.90503" width="1.09998"
                height="0.09998"/>
               <textSegment>
                 <font face="Courier New" size="6" bold="yes"/>
@@ -2029,38 +2023,39 @@ ORDER BY FEC_INICIO;]]>
          height="0.75000"/>
         <generalLayout verticalElasticity="variable"
          horizontalElasticity="variable"/>
-        <visualSettings fillBackgroundColor="r15g25b45"/>
+        <visualSettings fillBackgroundColor="black"/>
         <field name="F_CF_TitEmpresa" source="CF_TitEmpresa" minWidowLines="1"
          spacing="single" alignment="start">
-          <font face="Courier New" size="9" bold="yes" textColor="r90g95b100"/>
+          <font face="Courier New" size="9" bold="yes" textColor="darkblue"/>
           <geometryInfo x="0.06250" y="0.05005" width="6.00000"
            height="0.14587"/>
         </field>
         <field name="F_CF_TitAgencia" source="CF_TitAgencia" minWidowLines="1"
          spacing="single" alignment="start">
-          <font face="Courier New" size="8" bold="yes" textColor="r90g95b100"/>
+          <font face="Courier New" size="8" bold="yes" textColor="darkblue"/>
           <geometryInfo x="0.06250" y="0.21997" width="6.00000"
            height="0.14587"/>
         </field>
         <field name="F_NOM_REPORTE" source="PG_NOM_REPORTE" minWidowLines="1"
          spacing="single" alignment="start">
-          <font face="Courier New" size="8" bold="yes" textColor="r90g95b100"/>
+          <font face="Courier New" size="8" bold="yes" textColor="darkblue"/>
           <geometryInfo x="0.06250" y="0.38000" width="6.00000"
            height="0.14587"/>
         </field>
         <field name="F_CF_TitReporte" source="CF_TitReporte" minWidowLines="1"
          spacing="single" alignment="center">
-          <font face="Courier New" size="10" bold="yes" textColor="r90g95b100"/>
+          <font face="Courier New" size="10" bold="yes" textColor="darkblue"/>
           <geometryInfo x="0.06250" y="0.56006" width="10.80005"
            height="0.18005"/>
-          <visualSettings fillBackgroundColor="r20g35b60"/>
+          <visualSettings fillBackgroundColor="black"/>
         </field>
         <text name="B_Usr" minWidowLines="1">
           <textSettings spacing="single"/>
           <geometryInfo x="7.50000" y="0.05005" width="0.80005"
            height="0.14587"/>
           <textSegment>
-            <font face="Courier New" size="8" bold="yes" textColor="r90g95b100"/>
+            <font face="Courier New" size="8" bold="yes" textColor="darkblue"
+            />
             <string>
             <![CDATA[USUARIO :]]>
             </string>
@@ -2068,7 +2063,7 @@ ORDER BY FEC_INICIO;]]>
         </text>
         <field name="F_PG_USUARIO" source="PG_USUARIO" minWidowLines="1"
          spacing="single" alignment="start">
-          <font face="Courier New" size="8" bold="yes" textColor="r90g95b100"/>
+          <font face="Courier New" size="8" bold="yes" textColor="darkblue"/>
           <geometryInfo x="8.34998" y="0.05005" width="1.50000"
            height="0.14587"/>
         </field>
@@ -2077,7 +2072,8 @@ ORDER BY FEC_INICIO;]]>
           <geometryInfo x="7.50000" y="0.21997" width="0.80005"
            height="0.14587"/>
           <textSegment>
-            <font face="Courier New" size="8" bold="yes" textColor="r90g95b100"/>
+            <font face="Courier New" size="8" bold="yes" textColor="darkblue"
+            />
             <string>
             <![CDATA[FECHA   :]]>
             </string>
@@ -2085,7 +2081,7 @@ ORDER BY FEC_INICIO;]]>
         </text>
         <field name="F_CF_Fecha" source="sysdate" minWidowLines="1"
          formatMask="DD-MM-YYYY HH24:MI" spacing="single" alignment="start">
-          <font face="Courier New" size="8" bold="yes" textColor="r90g95b100"/>
+          <font face="Courier New" size="8" bold="yes" textColor="darkblue"/>
           <geometryInfo x="8.34998" y="0.21997" width="1.80005"
            height="0.14587"/>
         </field>
@@ -2094,7 +2090,8 @@ ORDER BY FEC_INICIO;]]>
           <geometryInfo x="7.50000" y="0.38000" width="0.80005"
            height="0.14587"/>
           <textSegment>
-            <font face="Courier New" size="8" bold="yes" textColor="r90g95b100"/>
+            <font face="Courier New" size="8" bold="yes" textColor="darkblue"
+            />
             <string>
             <![CDATA[PAGINA  :]]>
             </string>
@@ -2102,7 +2099,7 @@ ORDER BY FEC_INICIO;]]>
         </text>
         <field name="F_NUM_PAG" source="PhysicalPageNumber" minWidowLines="1"
          spacing="0" alignment="center">
-          <font face="Courier New" size="8" bold="yes" textColor="r90g95b100"/>
+          <font face="Courier New" size="8" bold="yes" textColor="darkblue"/>
           <geometryInfo x="8.30005" y="0.36584" width="0.25000"
            height="0.24878"/>
           <pageNumbering header="yes" main="yes" trailer="yes" startAt="1"
@@ -2113,7 +2110,8 @@ ORDER BY FEC_INICIO;]]>
           <geometryInfo x="8.55005" y="0.36584" width="0.25000"
            height="0.12756"/>
           <textSegment>
-            <font face="Courier New" size="8" bold="yes" textColor="r90g95b100"/>
+            <font face="Courier New" size="8" bold="yes" textColor="darkblue"
+            />
             <string>
             <![CDATA[DE]]>
             </string>
@@ -2121,7 +2119,7 @@ ORDER BY FEC_INICIO;]]>
         </text>
         <field name="F_PAG_TOT" source="TotalPhysicalPages" minWidowLines="1"
          spacing="0" alignment="center">
-          <font face="Courier New" size="8" bold="yes" textColor="r90g95b100"/>
+          <font face="Courier New" size="8" bold="yes" textColor="darkblue"/>
           <geometryInfo x="8.80005" y="0.36584" width="0.25000"
            height="0.25000"/>
           <pageNumbering header="yes" main="yes" trailer="yes" startAt="1"
