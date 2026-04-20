@@ -1001,7 +1001,7 @@ ORDER BY FEC_INICIO;]]>
               <field name="F_NUM_TRAMITE_LIN" source="NUM_TRAMITE_LIN"
                minWidowLines="1" spacing="0" alignment="end">
                 <font face="Courier New" size="8"/>
-                <geometryInfo x="8.20000" y="1.45996" width="1.00000"
+                <geometryInfo x="8.19995" y="1.45996" width="1.00000"
                  height="0.12500"/>
               </field>
               <text name="B_L_MonLbl" minWidowLines="1">
@@ -1042,7 +1042,7 @@ ORDER BY FEC_INICIO;]]>
               </field>
               <text name="B_L_PRevLbl" minWidowLines="1">
                 <textSettings spacing="0"/>
-                <geometryInfo x="8.10000" y="1.59998" width="0.80005"
+                <geometryInfo x="8.09998" y="1.59998" width="0.80005"
                  height="0.12500"/>
                 <textSegment>
                   <font face="Courier New" size="8" bold="yes"/>
@@ -1055,7 +1055,7 @@ ORDER BY FEC_INICIO;]]>
                source="FEC_PROX_REVISION_LIN" minWidowLines="1"
                formatMask="dd/mm/yyyy" spacing="0" alignment="start">
                 <font face="Courier New" size="8"/>
-                <geometryInfo x="8.95000" y="1.59998" width="0.90002"
+                <geometryInfo x="8.94995" y="1.59998" width="0.90002"
                  height="0.12500"/>
               </field>
               <text name="B_L_AptLbl" minWidowLines="1">
@@ -1078,7 +1078,7 @@ ORDER BY FEC_INICIO;]]>
               </field>
               <text name="B_L_VenLbl" minWidowLines="1">
                 <textSettings spacing="0"/>
-                <geometryInfo x="3.65000" y="1.73999" width="1.09998"
+                <geometryInfo x="2.40002" y="1.73999" width="1.09998"
                  height="0.12500"/>
                 <textSegment>
                   <font face="Courier New" size="8" bold="yes"/>
@@ -1091,7 +1091,7 @@ ORDER BY FEC_INICIO;]]>
                minWidowLines="1" formatMask="dd/mm/yyyy" spacing="0"
                alignment="start">
                 <font face="Courier New" size="8"/>
-                <geometryInfo x="4.80000" y="1.73999" width="0.90002"
+                <geometryInfo x="3.55005" y="1.73999" width="0.90002"
                  height="0.12500"/>
               </field>
               <text name="B_L_SDirLbl" minWidowLines="1">
@@ -1114,7 +1114,7 @@ ORDER BY FEC_INICIO;]]>
               </field>
               <text name="B_L_SConLbl" minWidowLines="1">
                 <textSettings spacing="0"/>
-                <geometryInfo x="7.25000" y="1.73999" width="1.09998"
+                <geometryInfo x="5.00000" y="1.73999" width="1.09998"
                  height="0.12500"/>
                 <textSegment>
                   <font face="Courier New" size="8" bold="yes"/>
@@ -1128,7 +1128,7 @@ ORDER BY FEC_INICIO;]]>
                formatMask="LNNN,NNN,NNN,NNN,NNN,NN0.00" spacing="0"
                alignment="start">
                 <font face="Courier New" size="8"/>
-                <geometryInfo x="8.40000" y="1.73999" width="1.60000"
+                <geometryInfo x="6.15002" y="1.73999" width="1.59998"
                  height="0.12500"/>
               </field>
               <frame name="M_G_OP_BL_HDR">
@@ -1362,7 +1362,7 @@ ORDER BY FEC_INICIO;]]>
               </repeatingFrame>
               <text name="B_TramModLbl" minWidowLines="1">
                 <textSettings spacing="0"/>
-                <geometryInfo x="8.00000" y="1.70996" width="1.00000"
+                <geometryInfo x="8.00000" y="1.73999" width="1.00000"
                  height="0.12500"/>
                 <textSegment>
                   <font face="Courier New" size="8" bold="yes"/>
@@ -1374,7 +1374,7 @@ ORDER BY FEC_INICIO;]]>
               <field name="F_TRAM_MOD" source="NUM_TRAM_MOD_LIN"
                minWidowLines="1" spacing="0" alignment="start">
                 <font face="Courier New" size="8"/>
-                <geometryInfo x="9.00000" y="1.70996" width="0.75000"
+                <geometryInfo x="9.00000" y="1.73999" width="0.75000"
                  height="0.12500"/>
               </field>
             </repeatingFrame>
